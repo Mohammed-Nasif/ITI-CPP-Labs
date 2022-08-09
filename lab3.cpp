@@ -34,11 +34,12 @@ long Pow(int Base, int Power)
 }
 
 // Result : 
+/*
     1 - Result = Base(2) * Pow(2,1)
     2 - Power = 1 => Therfore Result = Base = 2;
     Then Go Back With the Result
     3 - Substitute in (Result = 2 * 2 = 4);
-
+*/
 
 //---------------------------------------------------------------------
 
