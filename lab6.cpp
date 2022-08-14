@@ -142,7 +142,7 @@ private:
 
 public:
     void setEmployeeId(int I);
-    void setEmployeeName(int N[15]);
+    void setEmployeeName(char N[15]);
     void setEmployeeSalary(int Sal);
     int GetEmployeeId();
     char *GetEmployeeName();
@@ -157,7 +157,7 @@ void setEmployeeId(int I)
 {
     Id = I;
 }
-void setEmployeeName(int N[15])
+void setEmployeeName(char N[15])
 {
     strcpy(Name, N);
 }
