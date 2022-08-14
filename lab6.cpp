@@ -153,27 +153,27 @@ void main() {
     clrscr();
     getch();
 }
-void setEmployeeId(int I)
+void Employee::setEmployeeId(int I)
 {
     Id = I;
 }
-void setEmployeeName(char N[15])
+void Employee::setEmployeeName(char N[15])
 {
     strcpy(Name, N);
 }
-void setEmployeeSalary(int Sal)
+void Employee::setEmployeeSalary(int Sal)
 {
     Salary = Sal;
 }
-int GetEmployeeId()
+int Employee::GetEmployeeId()
 {
-return Id;
+    return Id;
 }
-char *GetEmployeeName()
+char* Employee::GetEmployeeName()
 {
-return Name;
+    return Name;
 }
-int GetEmployeeSalary()
+int Employee::GetEmployeeSalary()
 {
-return Salary;
+    return Salary;
 }
