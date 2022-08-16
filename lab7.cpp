@@ -86,7 +86,7 @@ void main() {
     clrscr();
     getch();
 }
-void Employee::setEmployeeId(char I)
+void Employee::setEmployeeId(int I)
 {
     Id = I;
 }
