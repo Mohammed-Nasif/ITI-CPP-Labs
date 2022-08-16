@@ -53,7 +53,7 @@ class Employee
         ~Employee()
         {
             Counter--;
-            delete Name;
+            //delete Name; //Wrong Line [Deleted] - Use It Only If You Created The Array Using [new] Keyword.
         }
 
         static int GetCounter()
@@ -86,11 +86,11 @@ void main() {
     clrscr();
     getch();
 }
-void Employee::setEmployeeId(int I)
+void Employee::setEmployeeId(char I)
 {
     Id = I;
 }
-void  Employee::setEmployeeName(int N[15])
+void  Employee::setEmployeeName(char N[15])
 {
     strcpy(Name, N);
 }
